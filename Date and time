@@ -1,1 +1,4 @@
 ## Today is: `=dateformat(date(today), "EEEE dd/MM/yyyy")`
+
+
+... **`$=dv.date("now").day`** of **`$=dv.date("now").daysInMonth`** days in **`$= "[["+ dv.date("now").toFormat("MM-yyyy")+"|"+ dv.date("now").toFormat("MMMM")+"]]"`** are history. ** `$= Math.round(dv.date("now").endOf('year').diff(dv.date("now"), 'days').days)` ** day(s) left in **`$= "[["+ dv.date("now").toFormat("yyyy")+"]]"`**
